@@ -1,0 +1,12 @@
+.Isactive{
+    background-color: green;
+    color:white;
+}
+.button{
+    border: 1px solid black;
+    border-radius: 5%;
+}
+span{
+    margin-left:20px;
+    
+}

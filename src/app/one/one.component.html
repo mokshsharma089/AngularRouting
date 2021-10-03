@@ -1,0 +1,13 @@
+<h1>Component One Loaded</h1>
+<p>one works!</p>
+<label>Enter Name to go to in component 2</label>
+<br>
+<input type="text" #id>
+<br>
+<button (click)="goHome()">Home</button>
+<br>
+<button (click)="goBack()">Back</button>
+<br>
+<button (click)="goTo2()">Go to 2nd Component</button>
+<br>
+<button (click)="goTo2WithName(id.value)">Go to 3rd Component with Name entered in input box(link=localhost:4200/2/name)</button>
